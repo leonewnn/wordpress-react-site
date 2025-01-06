@@ -1,0 +1,98 @@
+/* Common page container */
+.page-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Typography */
+article h2 {
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+
+article h4 {
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+article p {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  line-height: 1.6;
+}
+
+/* WordPress specific styles */
+.wp-block-heading {
+  margin-bottom: 1rem;
+}
+
+.wp-block-list {
+  padding-left: 20px;
+}
+
+.wp-block-image {
+  margin: 2em 0;
+  text-align: center;
+}
+
+.wp-block-image img {
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
+/* Mockup specific */
+.mockup-section {
+  margin: 20px 0;
+}
+
+.mockup-section h2 {
+  font-size: 2.2em;
+  font-weight: bold;
+  color: #3b4251;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 1.5px;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+  margin: 15px 0;
+  border-bottom: 2px solid #818181;
+  padding-bottom: 5px;
+}
+
+/* Table styles for Logbook */
+.wp-block-table {
+  margin: 2em 0;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.wp-block-table table {
+  width: 100%;
+}
+
+.wp-block-table td {
+  padding: 12px;
+  border: 1px solid #ddd;
+}
+
+.wp-block-table tr:nth-child(even) {
+  background-color: #f8f9fa;
+}
+
+.wp-block-table tr:first-child {
+  background-color: #3b4251;
+  color: white;
+}
+
+.wp-block-table td em {
+  color: #666;
+}
+
+/* Timestamp */
+#timestamp {
+  font-style: italic;
+  color: #818181;
+  font-size: 0.8em;
+  text-align: right;
+}

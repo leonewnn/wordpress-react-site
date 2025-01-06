@@ -1,0 +1,84 @@
+header {
+  background-color: #ffffff;
+  color: #3b3b3b;
+  padding: 0;
+  text-align: left;
+}
+
+header h1 {
+  /* Background image */
+  height: 170px;
+  background-image: url("https://dev-sitetestpresentation.pantheonsite.io/wp-content/uploads/2024/12/HeaderBackground.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  margin: 0;
+  width: 100%;
+  padding: 40px;
+  text-align: bottom;
+  /* Vertical centering */
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+  /* Glowing effect */
+  color: #f1f1f1;
+  text-shadow: 0 0 30px rgba(255, 255, 255, 0.5), 0 0 40px #ffffff,
+    0 0 50px #ffffff, 0 0 70px #ffffff, 0 0 110px #ffffff;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  height: 40px;
+  padding: 0;
+  justify-content: flex-start;
+  background-color: #bdbdbd; /* Added grey background */
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  justify-content: flex-start;
+}
+
+nav ul li {
+  display: block;
+  text-decoration: none;
+  height: 100%;
+  color: #1b1b1b;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333; /* Update link color for better contrast */
+  height: 100%;
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+nav ul li a:hover {
+  background-color: #e0e0e0;
+  color: #333;
+}
+
+nav ul li.active a {
+  background-color: #3b4251;
+  color: #e0e0e0;
+}
+
+/* Mobile styles */
+@media (max-width: 768px) {
+  /* Add your mobile styles here */
+}
+
+h1 {
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+}

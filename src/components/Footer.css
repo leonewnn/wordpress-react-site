@@ -1,0 +1,46 @@
+footer {
+  background-color: #3b4251;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  position: relative;
+  width: 100%;
+}
+
+footer .copyright,
+footer #impressum {
+  max-width: 60%;
+  margin: 2px 0;
+}
+
+footer .copyright {
+  font-size: 0.8rem;
+}
+
+#impressum {
+  text-align: center;
+}
+
+#impressum h3 {
+  font-size: 0.5rem;
+  margin-bottom: 2px;
+  color: #fff;
+}
+
+#impressum p {
+  font-size: 0.5rem;
+}
+
+#logo {
+  display: block;
+  margin: 20px;
+  max-width: 150px;
+  height: 27.4px;
+  width: 100px;
+}
+
+.credits {
+  font-size: small;
+}
